@@ -1,7 +1,7 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Bai4 {
+public class BTTHLTHDT {
     public static void Menu(){
         System.out.println("-------------MENU-------------");
         System.out.println("Moi chon: ");
@@ -26,7 +26,16 @@ public class Bai4 {
                     break;
 
                 case 2:
-                    System.out.println("2");
+                    String ten = "Le Van Thinh";
+                    int tuoi = 18;
+                    double chieucao = 1.76;
+                    boolean bancothichlaptrinhkhong = true;
+                    char kitudautien = 'L';
+                    System.out.println("Ten: " + ten);
+                    System.out.println("Tuoi: "+ tuoi);
+                    System.out.println("Chieu cao: " + chieucao + 'm');
+                    System.out.println("Ban co thich lap trinh khong: " + bancothichlaptrinhkhong);
+                    System.out.println("Ki tu dau tien: " + kitudautien);
                     break;
 
                 case 3:
